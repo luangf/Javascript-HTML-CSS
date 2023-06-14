@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JS</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            margin: 0px;
+            margin-top: 50px;
+            padding: 0px;
+        }
+        div#area{
+            font: normal 20pt Arial;
+            background-color: rgb(37, 121, 205);
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 7px black;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+
+        audio{
+            display: block;
+            margin: auto;
+        }
+
+        div#area-audio{
+            background-image: url(img01.jpg);
+            background-repeat: repeat;
+            background-size: contain;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px;
+        }
+
+        audio{
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">Interaja comigo</div>
+    <div id="area-audio">
+        <audio id="music" src="By the Sword - Ethan Meixsell.mp3" controls></audio>
+    </div>
+    <script>
+        // alert('Ao clicar na box a música começará, mas vai parar ao sair dela')
+        var area=window.document.getElementById('area')
+        area.addEventListener('click', cliquei)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseleave', sair)
+
+        function cliquei(){
+            // music.play()
+            area.style.background='gray'
+            area.innerText='Te cliquei 🤠'
+        }
+        function entrar(){
+            area.style.background='red'
+            area.innerText='Entrou.. :D'
+        }
+        function sair(){
+            // music.pause()
+            area.style.background='rgb(37, 121, 205)'
+            area.innerText='Volta.. >.<'
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: none; */
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --orange: #f78b00;
+    --blue: #00285f;
+    --gray: #ededed;
+}
+
+html, 
+body {
+    /* width: 100%; */
+    /* barra de rolagem scroll horizontal */
+    overflow-x: hidden;
+}
+
+header {
+    /* width: 100%; */
+    height: 500px;
+    background-color: var(--orange);
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    /* 0 auto... */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    /* width: 100%; */
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 24px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav a {
+   color: var(--blue);
+   text-decoration: 0; 
+}
+
+nav a:hover {
+    color: #00285f83;
+}
+
+nav button {
+    border: 1px solid --blue;
+    margin-left: 30px;
+    padding: 8px 40px;
+    cursor: pointer;
+    /* ou background... */
+    background-color: transparent;
+    color: var(--blue);
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+nav button:hover {
+    transition: background-color, color .6s;
+    background-color: var(--blue);
+    color: white;
+}
+
+/* .content .header-block { */
+/* .content > .heade r-block { */
+.header-block {
+    position: relative;
+    /* max-width: 1000px; */
+    /* min-width: 300px; */
+    height: 450px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px #00000080;
+    /* safari */
+    -webkit-box-shadow: 1px 0px 10px 0px #00000080;
+    /* mozila */
+    -moz-box-shadow: 1px 0px 10px 0px #00000080;
+    /* z-index: 10; */
+    padding: 10px;
+}
+
+.header-block .text {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    color: white;
+    text-align: right;
+}
+
+.header-block .text h2 {
+    margin-bottom: 20px;
+    transform: translateX(-20px);
+    transition: transform .5s;
+}
+
+.header-block img {
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.text p {
+    max-width: 280px;
+    transform: translateX(-20px);
+    transition: transform .4s;
+}
+
+section .catalog {
+    /* width: 100vw; */
+    padding: 100px;
+}
+
+section .filter-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    background-color: var(--gray);
+    border-radius: 8px;
+    margin: auto;
+}
+
+.search-input {
+    width: 700px;
+    height: 50px;
+    border: 0;
+    /* 0 n to botando unidade, q da certo sem */
+    border-radius: 4px 0 0 4px;
+    text-indent: 10px;
+}
+
+.search-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 0 4px 4px 0;
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: .2s ease;
+}
+
+.search-button:hover {
+    background-color: #dedede;
+    color: var(--blue);
+}
+
+.title-wrapper-catalog {
+    margin-top: 200px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: Lato, 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, sans-serif;
+}
+
+header {
+    background-color: #010101;
+    height: 65px;
+    display: flex;
+    font-family: 'Telefon Black', sans-serif;
+}
+
+header > div.box {
+    justify-content: space-between;
+}
+
+header img {
+    height: 100%;
+}
+
+header button {
+    background-color: #444857;
+    color: white;
+    border-radius: 5px;
+    width: 54px;
+    height: 44px;
+}
+
+header a {
+    text-decoration: 0;
+    color: white;
+    background-color: #5A5F73;
+    padding: 10px, 16px, 10px, 16px;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caixa {
+           width: 200px;
+           height: 200px;
+           background-color: red;
+        }
+     
+        .caixa-1 {
+           position: relative;
+           top: 50px;
+           left: 50px;
+           background-color: rgb(156, 79, 79);
+           z-index: 1;
+        }
+     
+        .caixa-2 {
+           position: absolute;
+           top: 100px;
+           left: 100px;
+           background-color: rgb(49, 169, 65);
+        }
+     
+        .caixa-3 {
+           position: fixed;
+           top: 200px;
+           left: 200px;
+           background-color: rgb(44, 50, 34);
+           z-index: 2;
+        }
+     </style>
+</head>
+<body>
+    <div class="caixa caixa-1"></div>
+    <div class="caixa caixa-2"></div>
+    <div class="caixa caixa-3"></div>
+</body>
+</html>
