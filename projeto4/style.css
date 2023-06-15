@@ -1,0 +1,44 @@
+body {
+   background-color: rgb(43, 117, 215); 
+   font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.426);
+}
+
+div {
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+input[type='button'] {
+    padding: 15px;
+    background-color: rgba(22, 65, 192, 0.642);
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+input[type='button']:hover {
+    -webkit-box-shadow: inset 11px -15px 18px 1px rgba(69,59,69,0.86);
+    -moz-box-shadow: inset 11px -15px 18px 1px rgba(69,59,69,0.86);
+    box-shadow: inset 11px -15px 18px 1px rgba(69,59,69,0.86);
+}
