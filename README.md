@@ -1,5 +1,5 @@
 # Javascript-HTML-CSS
-* Projetos treinamento JS + HTML + CSS realizados na plataforma Cursoemvideo de Gustavo Guanabara
+* Projetos treinamento JS + HTML + CSS realizados no curso de Gustavo Guanabara sobre JS
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto1/" target="_blank">Abrir Projeto 1</a>
 
