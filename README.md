@@ -26,4 +26,13 @@ Demonstrative image:
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto4/" target="_blank">>> Open Project 4 <<</a>
 
+* Objective: 
+
+Demonstrative image:
+
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto5/" target="_blank">>> Open Project 5 <<</a>
+
+* Objective: 
+
+Demonstrative image:
+
