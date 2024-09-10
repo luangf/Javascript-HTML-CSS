@@ -1,6 +1,7 @@
 # JavaScript + HTML + CSS training projects
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto1/" target="_blank">Open Project 1</a>
+
 *test
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto2/" target="_blank">Open Project 2</a>
