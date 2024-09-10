@@ -6,8 +6,7 @@
 
 Demonstrative image:
 
-![1](https://github.com/user-attachments/assets/e8d0464b-6079-4553-83b0-9c563fd13e7d)
-
+<img src="https://github.com/user-attachments/assets/e8d0464b-6079-4553-83b0-9c563fd13e7d" width="700px">
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto2/" target="_blank">>> Open Project 2 <<</a>
 
