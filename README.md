@@ -2,7 +2,7 @@
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto1/" target="_blank">Open Project 1</a>
 
-* test
+* Project 1 Objective: See what time it is on the user's system and show the time and a photo in the background corresponding to the time of day, whether it is morning, afternoon or night
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto2/" target="_blank">Open Project 2</a>
 
