@@ -1,5 +1,4 @@
-# Javascript-HTML-CSS
-* JS + HTML + CSS training projects.
+# JavaScript + HTML + CSS training projects
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto1/" target="_blank">Abrir Projeto 1</a>
 
