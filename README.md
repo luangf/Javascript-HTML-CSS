@@ -21,6 +21,10 @@ Demonstrative image:
 
 * Objective: Allows the user to define a starting value (Start), an ending value (End), and a step to determine the intervals between numbers.
 
+Demonstrative image:
+
+![3](https://github.com/user-attachments/assets/2db31fd9-bb5b-489b-8367-3776c7fe2bef)
+
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto4/" target="_blank">>> Open Project 4 <<</a>
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto5/" target="_blank">>> Open Project 5 <<</a>
