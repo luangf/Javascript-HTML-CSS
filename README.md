@@ -32,7 +32,7 @@ Demonstrative image:
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto4/" target="_blank">>> Open Project 4 <<</a>
 
-* Objective: Generates the multiplication table of a number
+* Objective: Generates the multiplication table of a number.
 
 Demonstrative image:
 
@@ -42,7 +42,8 @@ Demonstrative image:
 
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto5/" target="_blank">>> Open Project 5 <<</a>
 
-* Objective: 
+* Objective: Generates analyzes from numbers added to a list.
 
 Demonstrative image:
 
+<img src="https://github.com/user-attachments/assets/a7d497b9-fc1d-4bc8-b9bc-1252bf8c9f16" width="400px">
