@@ -7,8 +7,7 @@
 Demonstrative image:
 
 <img src="https://github.com/user-attachments/assets/e8d0464b-6079-4553-83b0-9c563fd13e7d" width="400px">
-
-
+---
 <a href="https://luangf.github.io/Javascript-HTML-CSS/projeto2/" target="_blank">>> Open Project 2 <<</a>
 
 * Objective: Check age through a year of birth input and show the gender of the user that he selected on the radio button.
